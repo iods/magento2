@@ -25,6 +25,6 @@
     "iods/module-frostbite": "*",
 
     "iods/module-customer": "*",
-    "iods/module-social": "*",
+    "iods/module-social": "*"
   }
 }
