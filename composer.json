@@ -20,5 +20,5 @@
     "magento/module-config": ">=101.0.0",
     "magento/module-backend": ">=100.2.0",
     "symfony/console": "*"
-  },
+  }
 }
