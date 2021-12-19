@@ -1,24 +1,25 @@
 {
   "name": "iods/magento2",
-  "description": "Composer package of individual modules adding as one giant experience.",
+  "description": "Bundle of individually developed modules adding as one giant experience.",
   "type": "magento2-module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": [
     "MIT"
   ],
-  "authors": [
-    {
-      "name": "Rye Miller",
-      "email": "rye@drkstr.dev",
-      "homepage": "https://ryemiller.io",
-      "role": "Developer"
-    }
-  ],
   "require": {
-    "php": ">=7.4",
-    "magento/framework": ">=103.0.0",
-    "magento/module-config": ">=101.0.0",
-    "magento/module-backend": ">=100.2.0",
-    "symfony/console": "*"
+    "iods/module-core": "*",
+    "iods/module-developer": "*",
+    "iods/module-performance": "*",
+    "iods/module-social": "*",
+    "iods/module-tulip": "*",
+    "iods/module-acuity": "*",
+    "iods/module-bunyan": "*",
+    "iods/module-connect": "*",
+    "iods/module-coreui": "*",
+    "iods/module-cream": "*",
+    "iods/module-customer": "*",
+    "iods/module-frostbite": "*",
+    "iods/module-lipstick": "*",
+    "iods/module-optimize": "*"
   }
 }
