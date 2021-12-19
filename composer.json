@@ -8,18 +8,23 @@
   ],
   "require": {
     "iods/module-core": "*",
+    "iods/module-coreui": "*",
+
     "iods/module-developer": "*",
     "iods/module-performance": "*",
-    "iods/module-social": "*",
-    "iods/module-tulip": "*",
-    "iods/module-acuity": "*",
+    "iods/module-optimize": "*",
     "iods/module-bunyan": "*",
     "iods/module-connect": "*",
-    "iods/module-coreui": "*",
-    "iods/module-cream": "*",
-    "iods/module-customer": "*",
-    "iods/module-frostbite": "*",
+
+    "iods/module-tulip": "*",
+
     "iods/module-lipstick": "*",
-    "iods/module-optimize": "*"
+    "iods/theme-acuity": "*",
+
+    "iods/module-cream": "*",
+    "iods/module-frostbite": "*",
+
+    "iods/module-customer": "*",
+    "iods/module-social": "*",
   }
 }
