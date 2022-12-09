@@ -1,30 +1,37 @@
 {
   "name": "iods/magento2",
-  "description": "Bundle of individually developed modules adding as one giant experience.",
+  "description": "A bundle of individually developed modules adding to one giant experience.",
   "type": "magento2-module",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "license": [
     "MIT"
   ],
   "require": {
-    "iods/module-core": "*",
-    "iods/module-coreui": "*",
+    "iods/module-base": "*",
+    "iods/module-baseui": "*",
 
     "iods/module-developer": "*",
-    "iods/module-performance": "*",
-    "iods/module-optimize": "*",
-    "iods/module-bunyan": "*",
+
     "iods/module-connect": "*",
 
-    "iods/module-tulip": "*",
+    "iods/module-sysconfig": "*",
 
-    "iods/module-lipstick": "*",
-    "iods/theme-acuity": "*",
+    "iods/module-bunyan": "*",
 
     "iods/module-cream": "*",
     "iods/module-frostbite": "*",
 
+    "iods/module-optimize": "*",
+    "iods/module-performance": "*",
+
     "iods/module-customer": "*",
-    "iods/module-social": "*"
+
+    "iods/module-tulip": "*",
+
+    "iods/theme-acuity": "*",
+    "iods/module-lipstick": "*",
+    "iods/module-machete": "*",
+
+    "iods/module-hello": "*"
   }
 }
